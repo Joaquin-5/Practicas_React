@@ -1,0 +1,9 @@
+li {
+  color: black;
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 20px;
+}
