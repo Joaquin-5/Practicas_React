@@ -1,6 +1,10 @@
-import React from "react";
-
 function Footer() {
+  function getCurrentYear() {
+    return new Date().getFullYear();
+  }
+
+  getCurrentYear();
+
   return (
     <footer
       style={{
@@ -10,7 +14,7 @@ function Footer() {
         marginTop: "20px",
       }}
     >
-      <p>&copy; 2024 - Mi Aplicación React</p>
+      <p>&copy; {getCurrentYear()} - Prácticas React</p>
     </footer>
   );
 }
